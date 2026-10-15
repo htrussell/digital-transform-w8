@@ -41,6 +41,59 @@ main{max-width:1240px;margin:auto;padding:30px 28px 70px}.hero{background:linear
 @media(max-width:680px){.full-doc-details>summary{padding:16px;flex-wrap:wrap}.summary-hint{width:100%;margin-left:0}.full-doc-content{padding:18px}.full-doc-content .doc-title{font-size:21px}}
 @media print{.full-doc-details:not([open])>.full-doc-content{display:none}.full-doc-details[open]{break-before:page}.full-doc-details>summary{display:none}.full-doc-content{padding:0}.full-doc-content .doc-table{min-width:0}.full-doc-content .doc-table td,.full-doc-content .doc-table th{font-size:7pt;padding:5px}.full-doc-content p{font-size:9pt}.full-doc-content .doc-heading{break-after:avoid}}
 
+
+/* Large-room presentation readability pass */
+@media screen {
+  body { font-size: 18px; line-height: 1.72; }
+  .navlinks a { font-size: 15px; }
+  .brand-mark { font-size: 14px; }
+  .btn { font-size: 14px; padding: 11px 14px; }
+  .eyebrow, .section-kicker, .synthesis .label { font-size: 13px; }
+  .hero h1 { font-size: clamp(38px, 4.5vw, 60px); }
+  .hero .subtitle { font-size: 20px; line-height: 1.65; }
+  .pill { font-size: 14px; }
+  .verdict-banner small { font-size: 13px; }
+  .verdict-banner p { font-size: 21px; }
+  .team-card h3 { font-size: 19px; }
+  .team-letter { width: 40px; height: 40px; font-size: 18px; }
+  .stat .num { font-size: clamp(28px, 2.7vw, 38px); }
+  .stat .label { font-size: 15px; }
+  .section h2 { font-size: clamp(28px, 3.2vw, 38px); }
+  .section-intro { font-size: 17px; line-height: 1.7; }
+  .situation { font-size: 20px; line-height: 1.8; }
+  .analysis-card .index { font-size: 14px; }
+  .analysis-card h3 { font-size: 21px; }
+  .analysis-card p, .panel p { font-size: 17px; line-height: 1.8; }
+  .synthesis p { font-size: 20px; }
+  .panel h3 { font-size: 22px; }
+  .recommendation .tag { font-size: 13px; }
+  .action { font-size: 21px !important; }
+  .success { font-size: 16px; }
+  .table-tools input { font-size: 16px; }
+  .count { font-size: 15px; }
+  thead th { font-size: 13px; }
+  tbody td { font-size: 15px; line-height: 1.75; }
+  td.framework { font-size: 16px; }
+  td.source { font-size: 14px; }
+  .rownum { font-size: 13px; }
+  .footer { font-size: 15px; }
+  .full-doc-details>summary { font-size: 20px; }
+  .summary-hint { font-size: 15px; }
+  .full-doc-content p { font-size: 17px; line-height: 1.8; }
+  .full-doc-content .doc-title { font-size: 30px; }
+  .full-doc-content .doc-meta { font-size: 15px; }
+  .full-doc-content .doc-heading { font-size: 20px; }
+  .full-doc-content .doc-table th { font-size: 14px; }
+  .full-doc-content .doc-table td { font-size: 15px; line-height: 1.75; }
+}
+@media(max-width:680px) and (screen) {
+  .hero .subtitle { font-size: 17px; }
+  .verdict-banner p { font-size: 18px; }
+  .section h2 { font-size: 29px; }
+  .situation { font-size: 17px; }
+  .analysis-card h3 { font-size: 20px; }
+}
+
 </style>
 </head>
 <body>
